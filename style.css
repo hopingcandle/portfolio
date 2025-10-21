@@ -1,0 +1,61 @@
+/* wrote this while copying from w3schools, probabaly gonna forget how to do this soon*/
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  background-color: #0f0f31;
+  color: white;
+  text-align: center;
+}
+
+/* Simple top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a1a4b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Links in the navigation bar */
+.topnav a {
+  float: left;
+  color: #3fa9f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Add space between sections */
+.section {
+  padding: 100px 20px;
+}
+
+/* Profile picture styling */
+.profile {
+  width: 150px;           
+  height: 150px;
+  border-radius: 50%;      
+  border: 4px solid #3fa9f5; 
+  display: block;
+  margin: 20px auto;
+  object-fit: cover;        
+  object-position: center;  
+}
+
+
+/* Project area */
+.project-container {
+  margin-top: 20px;
+}
+
+/* Each project link box */
+.project-box {
+  display: inline-block;
+  background-color: #2ba1a1;
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 180px;
+}
