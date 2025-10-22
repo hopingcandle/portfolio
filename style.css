@@ -3,7 +3,7 @@ body {
   font-family: 'Outfit', sans-serif;
   margin: 0;
   background-color: #0f0f31;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -58,4 +58,24 @@ body {
   margin: 10px;
   border-radius: 10px;
   width: 180px;
+}
+
+/* changes color when hovering */
+.topnav a:hover {
+  background-color: #3fa9f5;
+  color: #0f0f31;
+}
+
+.project-box:hover {
+  background-color: #3fa9f5;
+  color: #0f0f31;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-container {
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
 }
